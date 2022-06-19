@@ -6,6 +6,10 @@ const calculator = {
     minus: function (a, b){
         console.log(a - b);
     },
+    multiplication: function (a, b) {
+     console.log(a * b);
+    },
+
     devide: function (p, q) {
         console.log(p / q);
     },
@@ -18,6 +22,8 @@ const calculator = {
 calculator.add(5, 1);
 
 calculator.minus(10, 3);
+
+calculator.multiplication(3, 5);
 
 calculator.devide(90, 3);
 
