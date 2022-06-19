@@ -16,3 +16,6 @@ daysOfWeek.push("sun");
 
 console.log(daysOfWeek);
 console.log(daysOfWeek[6]); // sun
+
+daysOfWeek[2] = "water";
+console.log(daysOfWeek);  // update
